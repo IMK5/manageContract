@@ -1,0 +1,24 @@
+# default application storage directory used by the IDE Performance Cache feature
+
+ViewController/target/*
+ViewController/public_html/*
+.data/
+*.data
+*.jdb
+*.ear
+*.jar
+*.war
+
+Model/target/*
+*/target/MayApplication/*
+
+# used for ADF styles caching
+temp/
+
+# default output directories
+classes/
+deploy/
+javadoc/
+
+# lock file, a part of Oracle Credential Store Framework
+cwallet.sso.lck
